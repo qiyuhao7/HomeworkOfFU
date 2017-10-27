@@ -1,0 +1,57 @@
+﻿生成启动时间为 2017/10/21 22:08:06。
+     1>项目“D:\Project\vs10\MiniMeshFrame4\MiniMeshFrame\MiniMeshFrame.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IE:\Qt\Qt5.2.1\5.2.1\msvc2010_opengl\include /I.\GeneratedFiles\Release /IE:\Qt\Qt5.2.1\5.2.1\msvc2010_opengl\include\QtCore /IE:\Qt\Qt5.2.1\5.2.1\msvc2010_opengl\include\QtGui /IE:\Qt\Qt5.2.1\5.2.1\msvc2010_opengl\include\QtOpenGL /IE:\Qt\Qt5.2.1\5.2.1\msvc2010_opengl\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt mainwindow.cpp meshParameterization.cpp renderingwidget.cpp
+         mainwindow.cpp
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(872): error C2084: 函数“float cbrt(float) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1045) : 参见“cbrt”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(882): error C2084: 函数“long double cbrt(long double) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1161) : 参见“cbrt”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(890): error C2084: 函数“float round(float) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1125) : 参见“round”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(898): error C2084: 函数“long double round(long double) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1241) : 参见“round”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(905): error C2084: 函数“float trunc(float) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1143) : 参见“trunc”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(913): error C2084: 函数“long double trunc(long double) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1259) : 参见“trunc”的前一个定义
+     1>mainwindow.cpp(200): warning C4129: “h”: 不可识别的字符转义序列
+         meshParameterization.cpp
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(872): error C2084: 函数“float cbrt(float) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1045) : 参见“cbrt”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(882): error C2084: 函数“long double cbrt(long double) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1161) : 参见“cbrt”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(890): error C2084: 函数“float round(float) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1125) : 参见“round”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(898): error C2084: 函数“long double round(long double) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1241) : 参见“round”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(905): error C2084: 函数“float trunc(float) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1143) : 参见“trunc”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(913): error C2084: 函数“long double trunc(long double) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1259) : 参见“trunc”的前一个定义
+     1>meshParameterization.cpp(903): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 meshParameterization.cpp(820) : 忽略“i”的定义
+                 meshParameterization.cpp(676) : 使用“i”的定义
+     1>meshParameterization.cpp(908): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 meshParameterization.cpp(820) : 忽略“i”的定义
+                 meshParameterization.cpp(676) : 使用“i”的定义
+         renderingwidget.cpp
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(872): error C2084: 函数“float cbrt(float) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1045) : 参见“cbrt”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(882): error C2084: 函数“long double cbrt(long double) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1161) : 参见“cbrt”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(890): error C2084: 函数“float round(float) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1125) : 参见“round”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(898): error C2084: 函数“long double round(long double) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1241) : 参见“round”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(905): error C2084: 函数“float trunc(float) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1143) : 参见“trunc”的前一个定义
+     1>d:\project\vs10\minimeshframe4\minimeshframe\HE_mesh/Vec.h(913): error C2084: 函数“long double trunc(long double) throw()”已有主体
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1259) : 参见“trunc”的前一个定义
+     1>renderingwidget.cpp(10): fatal error C1083: 无法打开包括文件: “gl/glut.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“D:\Project\vs10\MiniMeshFrame4\MiniMeshFrame\MiniMeshFrame.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.72
